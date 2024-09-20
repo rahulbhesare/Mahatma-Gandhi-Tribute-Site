@@ -1,0 +1,137 @@
+
+
+<!--Cascading Style Sheets (CSS)-->
+
+<style>
+
+*{margin:0px;
+padding:0px;}
+
+/*Navigation bar styles*/
+nav{background:black;
+color:white;
+z-index:5;
+position:fixed;
+width:100vw;/*width according to the device-width*/
+height:60px;
+font-size:35px;
+top:0px;
+border-radius:0px;}
+#logo{background:#F6D800;
+border-radius:1px;
+}
+
+/*Navigation bar styles ends..*/
+/*Styles for menu*/
+#menubtn{background:#BF6517;
+width:50px;
+margin-right:10px;
+padding-top: -1px;
+padding-right: 1px;
+padding-bottom: 1px;
+padding-left: 1px;
+margin-left:10px;
+display:inline-block;
+text-align:center;
+border-radius:3px;}
+#menu{background-color:rgba(0,0,0,0.7);
+z-index:2;
+position:fixed;
+padding:1vw 4vw 2vw 4vw;
+display:none;
+top:49px;
+left:15px;
+border-radius:1vw 1vw 1vw 1vw;}p
+ul{list-style:"";}
+li>hr{height:1px;
+margin:2px 0px;}
+li>a{text-decoration:none;
+color:white;}
+#menu>ul>li{font-size:4.5vh;}
+
+/*Menu Styles ends*/
+/*Content Styles...*/
+#content{position:relative;
+z-index:1;
+padding:50px 3vw 0px 3vw;
+text-align:center;
+line-height: 38px;
+overflow:auto;
+font-size:20px;}
+#content>hr{margin-bottom:45px;
+margin-top:1px;}
+h1{text-align:center;
+margin-bottom: 22px;
+color:#080573;}
+h3{color:#32C788;
+text-decoration:underline;}
+img{width:50vmin;height:50vmin;}
+.alignLeft{text-align:left;
+margin:2px 5vw;}
+.syntax{text-align:left;
+background:#EFEDC8;
+margin:2px 0px 2px 2vw;
+font-size:3.5vh;
+overflow-x:auto;
+overflow-y:hidden;
+padding:1px;
+border-left:4px solid #ff0000;}
+.pink{color:#DE1E1E;}
+.blue{color:#2962DC;}
+table{background:#EFEDC8;
+border:2px solid #DE1E1E;}
+
+
+/*Footer Styles*/
+footer>span{font-size:4vh;}
+footer{background:black;
+text-align: center;
+margin-bottom: -50px;
+padding-top: 50px;
+padding-bottom: 50px;
+color:white;
+text-align:center;}
+#devs,#mail,#ref{display:none;
+text-align:left;
+font-size:3vh;
+color:gray;}
+footer>div{font-size:3vh;}
+
+/*Header Code */
+.header1{
+margin-top:10px;
+padding-top: -1px;
+padding-right: 1px;
+padding-bottom: 0px;
+padding-left: 1px;}
+
+
+/*Image Responsive*/
+.img-responsive{
+    margin-top:80px;
+    margin-bottom:-7px;
+
+
+/*Responsive*/*
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/*Image Style*/
+
+.gimg{
+margin-bottom:0px;
+
+}
+
+
+</style>
+
+
+
+
+
+
+
